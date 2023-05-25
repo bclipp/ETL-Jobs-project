@@ -11,8 +11,8 @@ class restConfig(abc.ABC):
     fill in
 
     """
-
-    url = "dev"
+    name = ""
+    url = ""
 
 
 @dataclass
@@ -20,24 +20,24 @@ class MachineRestConfiguration(restConfig):
     """
     fill in
     """
-
-    url = "dev"
+    name = "bronze_machine_raw"
+    url = "https://my.api.mockaroo.com/machine.json"
 
 
 class SalesRestConfiguration(restConfig):
     """
     fill in
     """
-
-    url = "dev"
+    name = "bronze_sales"
+    url = "https://my.api.mockaroo.com/sales.json"
 
 
 class BronzeSapBsegRestConfiguration(restConfig):
     """
     fill in
     """
-
-    url = "dev"
+    name = "bronze_sap_bseg"
+    url = "https://my.api.mockaroo.com/sap_bseg.json"
 
 
 Apis = [

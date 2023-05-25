@@ -3,3 +3,5 @@
 ml-jobs/.idea/**
 ml-jobs/dist/**
 etl-jobs/dist/**
+poetry.lock
+pyproject.toml
